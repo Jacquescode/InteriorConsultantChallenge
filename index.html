@@ -1,95 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>interior consultant</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+<body>
+  <nav>
+    <div class="nav-center">
+      <div class="nav-header">
+        <div class="logo">
+          <h4>this interior</h4>
+        </div>
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
       </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
+      <ul class="links">
         <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
+          <a href="index.html">Home</a>
         </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
         <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
+          <a href="about.html">Collection</a>
+        </li>
+        <li>
+          <a href="projects.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
         </li>
       </ul>
+      <!-- social media -->
     </div>
-  </body>
+  </nav>
+  <main>
+    <div class="left-section">
+      <h1>Modern interior</h1>
+      <p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+      <h3>Read more &rarr;</h3>
+    </div>
+    <div class="right-section">
+      <div class="image-section">
+        <img src="/photo1.png" alt="interiorphoto" width="400px">
+      </div>
+      <div class="card-section">
+        <div class="top-card-section">
+          <div class="image-card-section">
+            <img src="/photo2.png" alt="portrait" width="65px">
+          </div>
+          <div class="name-card-section">
+            <h4>Aliza Webber</h4>
+            <p>Interior designer</p>
+          </div>
+        </div>
+        <div class="content-card-section">
+          <h3>Designed in 2020 by Aliza Webber</h3>
+      </div>
+    </div>
+  </div>
+  </main>
+  <footer>
+    <h3>created by JacquesCode - devChallenges.io</h3>
+  </footer>
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
 </html>
