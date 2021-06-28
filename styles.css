@@ -66,13 +66,14 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--clr-black);
-  z-index: 1;
+  z-index: -1;
 
   transition: all 0.3s linear;
 }
 
 .show-links {
   opacity: 1;
+  z-index: 1;
 }
 
 ul {
@@ -209,6 +210,7 @@ footer h3 {
     height: auto;
     width: auto;
     background-color: transparent;
+    z-index: 0;
   }
 
   main {
