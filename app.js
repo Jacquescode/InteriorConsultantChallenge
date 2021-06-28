@@ -5,4 +5,4 @@ const i = document.querySelector(".fas");
 navToggle.addEventListener("click", function () {
   links.classList.toggle("show-links");
   i.classList.toggle("fa-times");
-})
+});
