@@ -50,10 +50,6 @@ body {
   z-index: 2;
 }
 
-.nav-toggle:hover {
-  transform: rotate(45deg);
-}
-
 .links {
   opacity: 0;
   position: fixed;
@@ -97,7 +93,6 @@ a {
 }
 
 .links a {  
-  color: var(--clr-white);
   font-size: 0.8em;
   transition: all 0.5s ease-in-out;
 }
