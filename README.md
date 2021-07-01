@@ -38,6 +38,8 @@
 
 <img src="/Images/screencapture.png">
 
+First time I use Javascript in my devChallenges. Doing the mobile menu has been more tricky than I will thought. I also take the time to work with the "em" unit and add&use some Custom Properties.
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
